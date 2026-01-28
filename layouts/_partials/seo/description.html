@@ -7,7 +7,7 @@
 
 {{- /* ignore description length for specified pages */ -}}
 {{- range site.Params.seo.description.lengthIgnores }}
-	{{- if gt (len (findRE . $curPage.TranslationKey)) 0 }}
+	{{- if eq . $curPage.TranslationKey }}
 		{{- $errorLevel = "ignore" }}
 	{{- end }}
 {{- end }}
