@@ -1,5 +1,11 @@
 # @thulite/seo
 
+## 2.4.4
+
+### Patch Changes
+
+- [#36](https://github.com/thuliteio/seo/pull/36) [`5414c51`](https://github.com/thuliteio/seo/commit/5414c51d888e3317350b2abba3239be1f7b0e579) Thanks [@h-enk](https://github.com/h-enk)! - Refactor SEO templates for improved localization and sitemap structure
+
 ## 2.4.3
 
 ### Patch Changes
